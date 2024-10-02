@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaques - Corinthians</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4e3b2d;
+            color: #f7d799;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: #f7d799;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .highlight {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+        .highlight img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Destaques do Corinthians</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="news.html">Notícias</a></li>
+                <li><a href="games.html">Jogos</a></li>
+                <li><a href="team.html">Equipe</a></li>
+                <li><a href="shop.html">Loja</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="highlights">
+        <div class="container">
+            <h2>Destaques</h2>
+            <div class="highlight">
+                <h3>Copa do Mundo de Clubes</h3>
+                <img src="https://th.bing.com/th/id/OIP.Ducv6h-V4LUrG_Yi2zEfGAHaKp?rs=1&pid=ImgDetMain" alt="Copa do Mundo de Clubes">
+                <p>Vencedor em 2000 e 2012, o Corinthians é um dos grandes campeões desse torneio internacional.</p>
+            </div>
+            <div class="highlight">
+                <h3>Libertadores</h3>
+                <img src="https://th.bing.com/th/id/OIP.0guuNlMSzLaLgzIfnc3nQgHaHa?rs=1&pid=ImgDetMain" alt="Libertadores">
+                <p>Campeão da Libertadores em 2012, o Corinthians conquistou o torneio mais importante da América do Sul.</p>
+            </div>
+            <div class="highlight">
+                <h3>Copa do Brasil</h3>
+                <img src="https://th.bing.com/th/id/R.f19d48bf49b1a3f724e5ec875933d3bc?rik=I8X1nFZDpvpaoA&riu=http%3a%2f%2fimgsapp.mg.superesportes.com.br%2fapp%2ffoto_126510467054%2f2014%2f11%2f24%2f6220%2f20141124202049737974a_1200x800.jpg&ehk=yr8TnzYJ7dPJLlcntaW51Y2unS0Yr5o0c2QwQnXFz2A%3d&risl=&pid=ImgRaw&r=0" alt="Copa do Brasil">
+                <p>Com várias conquistas ao longo dos anos, o Corinthians é um dos clubes de maior sucesso na Copa do Brasil.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Corinthians. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
